@@ -45,7 +45,7 @@ const Hero = () => (
         Payment Method.
       </h1>
     </div>
-    <div>
+    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img src={robot} alt="robot arm " className="w-[100%]  relative z-[5]" />
       <div
         className="absolute z-[0] w-[40%]
@@ -57,6 +57,9 @@ const Hero = () => (
         className="absolute z-[0] w-[50%]
           h-[50%] right-20 bottom-20 blue__gradient"/>
     </div>
+  <div className={`ss:hidden ${styles.flexCenter}`}>
+  <GetStarted/>
+  </div>
   </section>
 );
 
