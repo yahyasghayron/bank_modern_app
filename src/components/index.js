@@ -9,7 +9,9 @@ import Testimonials from "./Testimonials"
 import Clients from "./Clients"
 import CTA from "./CTA"
 import Footer from "./Footer"
-
+import FeedbackCard from "./FeedbackCard"
+import Button from "./Button"
+import GetStated from "./GetStarted"
 export {
  Navbar,
   Hero, 
@@ -20,5 +22,9 @@ export {
   CTA,
   Clients,
   Testimonials,
-  Footer
+  Footer,
+  FeedbackCard,
+  Button,
+  GetStated,
+
 };
