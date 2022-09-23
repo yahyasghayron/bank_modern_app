@@ -138,3 +138,14 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+@-moz-document url-prefix(){
+  .pink__gradient 
+  {
+    opacity: 0.3;
+    filter: blur(900px) ;
+  }
+  .white__gradient{
+    opacity: 0.3;
+    filter: blur(90px) ;
+  }
+}

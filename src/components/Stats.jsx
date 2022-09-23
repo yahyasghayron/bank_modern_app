@@ -1,9 +1,8 @@
-import React from 'react'
+import {stats} from "../constans";
+import styles from '../styles'
 
-const Stats = () => {
-  return (
-    <div>Stats</div>
+const Stats = () =>  (
+    <section className="">Stats</section>
   )
-}
 
 export default Stats
